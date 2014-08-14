@@ -13,7 +13,7 @@
 				<?php endwhile; ?>
 			</div><!--wp-loop-->
 <?php else : ?>
-<p>Sorry no content here</p>
+<p>Sorry your search didn't result in any matches.</p>
 <?php endif; ?>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
