@@ -3,15 +3,10 @@
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-			<?php the_title();?>
-			<?php 
-			the_author( );
-			the_date( );	
-			the_content();
-			the_excerpt();		
-			?>
-			<br />
-
+			<h1><?php the_title();?></h1>
+			<p><?php the_author( );?>
+			<span><?php the_date( );?> </span></p>
+			<article><?php the_content();?></article>
 			<?php endwhile; ?>
 
 <?php else : ?>
