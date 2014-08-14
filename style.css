@@ -24,3 +24,19 @@ body{
 	width: 30%;
 	float: left;
 }
+
+nav{
+	background: green;
+	width: 100%;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
