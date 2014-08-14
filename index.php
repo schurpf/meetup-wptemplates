@@ -15,4 +15,6 @@
 <?php else : ?>
 <p>Sorry no content here</p>
 <?php endif; ?>
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
+
