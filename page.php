@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php if ( have_posts() ) : ?>
-			<div class="wp-loop">
+			<div class="wp-loop page">
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 				<article>
@@ -15,6 +15,6 @@
 <?php else : ?>
 <p>Sorry no content here</p>
 <?php endif; ?>
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
 
